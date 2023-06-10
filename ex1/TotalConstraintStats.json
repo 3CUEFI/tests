@@ -1,0 +1,10 @@
+{"Stats":{"ConstraintStats":{"Individual":[{"/home/arun/Desktop/tests/ex1/simple.c":{"constraints":4,"ptr":1,"ntarr":0,"arr":1,"wild":2}}],"Summary":{"TotalConstraints":4,"TotalPtrs":1,"TotalNTArr":0,"TotalArr":1,"TotalWild":2}},
+"BoundsStats":{"NumPointersNeedBounds":1,"NumNTNoBounds":0,"Details":{"Invalid":0,"BoundsFound":{"ArrayBoundsInferenceStats":{"NamePrefixMatch":0,
+"AllocatorMatch":1,
+"VariableNameMatch":0,
+"NeighbourParamMatch":0,
+"DataflowMatch":1,
+"Declared":0,
+"DeclaredButNotHandled":0
+}}}},"PerformanceStats":[{"TimeStats": {"TotalTime":3.838820e-01, "ConstraintBuilderTime":3.657800e-02, "ConstraintSolverTime":3.440500e-02, "ArrayBoundsInferenceTime":1.058200e-02, "RewritingTime":4.418800e-02}},
+{"ReWriteStats":{"NumAssumeBoundsCasts":0, "NumCheckedCasts":0, "NumWildCasts":0, "NumFixedCasts":0, "NumITypes":0, "NumCheckedRegions":5, "NumUnCheckedRegions":4}}]}}
