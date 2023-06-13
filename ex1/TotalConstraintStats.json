@@ -1,4 +1,4 @@
-{"Stats":{"ConstraintStats":{"Individual":[{"/home/arun/Desktop/tests/ex1/simple.c":{"constraints":4,"ptr":1,"ntarr":0,"arr":1,"wild":2}}],"Summary":{"TotalConstraints":4,"TotalPtrs":1,"TotalNTArr":0,"TotalArr":1,"TotalWild":2}},
+{"Stats":{"ConstraintStats":{"Individual":[{"/home/arun/Desktop/tests/ex1/simple.c":{"constraints":6,"ptr":1,"ntarr":0,"arr":2,"wild":3}}],"Summary":{"TotalConstraints":6,"TotalPtrs":1,"TotalNTArr":0,"TotalArr":2,"TotalWild":3}},
 "BoundsStats":{"NumPointersNeedBounds":1,"NumNTNoBounds":0,"Details":{"Invalid":0,"BoundsFound":{"ArrayBoundsInferenceStats":{"NamePrefixMatch":0,
 "AllocatorMatch":1,
 "VariableNameMatch":0,
@@ -6,5 +6,5 @@
 "DataflowMatch":1,
 "Declared":0,
 "DeclaredButNotHandled":0
-}}}},"PerformanceStats":[{"TimeStats": {"TotalTime":3.838820e-01, "ConstraintBuilderTime":3.657800e-02, "ConstraintSolverTime":3.440500e-02, "ArrayBoundsInferenceTime":1.058200e-02, "RewritingTime":4.418800e-02}},
-{"ReWriteStats":{"NumAssumeBoundsCasts":0, "NumCheckedCasts":0, "NumWildCasts":0, "NumFixedCasts":0, "NumITypes":0, "NumCheckedRegions":5, "NumUnCheckedRegions":4}}]}}
+}}}},"PerformanceStats":[{"TimeStats": {"TotalTime":2.069200e-02, "ConstraintBuilderTime":7.680000e-03, "ConstraintSolverTime":4.410000e-04, "ArrayBoundsInferenceTime":5.690000e-04, "RewritingTime":2.381000e-03}},
+{"ReWriteStats":{"NumAssumeBoundsCasts":0, "NumCheckedCasts":0, "NumWildCasts":2, "NumFixedCasts":0, "NumITypes":0, "NumCheckedRegions":6, "NumUnCheckedRegions":0}}]}}
